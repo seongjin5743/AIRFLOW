@@ -6,7 +6,7 @@ from dotenv import load_dotenv  # 환경 변수 로드를 위한 dotenv 라이�
 import os  # 파일 및 디렉토리 작업을 위한 os 모듈 임포트
 
 # .env 파일에서 환경 변수 로드
-load_dotenv('/home/ubuntu/airflow/.env')
+load_dotenv('/home/ubuntu/airflows/.env')
 
 # S3에 파일을 업로드하는 함수 정의
 def upload_to_s3():
